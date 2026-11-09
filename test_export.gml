@@ -2,7 +2,8 @@
 <ogr:FeatureCollection
      gml:id="aFeatureCollection"
      xmlns:ogr="http://ogr.maptools.org/"
-     xmlns:gml="http://www.opengis.net/gml/3.2">
+     xmlns:gml="http://www.opengis.net/gml/3.2"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <gml:boundedBy><gml:Envelope srsName="urn:ogc:def:crs:EPSG::4326"><gml:lowerCorner>41.548038 -0.107632</gml:lowerCorner><gml:upperCorner>52.996993 2.032202</gml:upperCorner></gml:Envelope></gml:boundedBy>
                                                                                                                                                
   <ogr:featureMember>
