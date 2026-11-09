@@ -9,7 +9,6 @@
     <gml:description>Dataset completo de prueba para validar geometrías GML 3.2.1 en OpenLayers y Leaflet</gml:description>
     <gml:name>TestSuiteGML32</gml:name>
 
-    <!-- 1. Geometría simple: Punto (Point) -->
     <gml:featureMember>
         <test:PuntoTest gml:id="Punto_1">
             <test:nombre>Punto de Control Principal</test:nombre>
@@ -21,7 +20,6 @@
         </test:PuntoTest>
     </gml:featureMember>
 
-    <!-- 2. Geometría lineal simple: Línea (LineString) -->
     <gml:featureMember>
         <test:LineaTest gml:id="Linea_1">
             <test:nombre>Ruta o Eje Vial</test:nombre>
@@ -33,7 +31,6 @@
         </test:LineaTest>
     </gml:featureMember>
 
-    <!-- 3. Geometría poligonal compleja: Polígono con anillo exterior e interior (Hueco) -->
     <gml:featureMember>
         <test:PoligonoTest gml:id="Poligono_1">
             <test:nombre>Zona con Hueco Interior</test:nombre>
@@ -54,7 +51,6 @@
         </test:PoligonoTest>
     </gml:featureMember>
 
-    <!-- 4. Multigeometría: Conjunto de líneas (MultiCurve) -->
     <gml:featureMember>
         <test:MultiCurvaTest gml:id="MultiCurva_1">
             <test:nombre>Red de Líneas Múltiples</test:nombre>
@@ -75,7 +71,6 @@
         </test:MultiCurvaTest>
     </gml:featureMember>
 
-    <!-- 5. Multigeometría: Conjunto de superficies (MultiSurface) -->
     <gml:featureMember>
         <test:MultiSuperficieTest gml:id="MultiSup_1">
             <test:nombre>Superficies Múltiples (Islas o Polígonos disjuntos)</test:nombre>
